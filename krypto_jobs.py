@@ -29,8 +29,8 @@ import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
 from web3 import Web3
-import hashlib
-from ethereum import generate_account
+#import hashlib
+#from ethereum import generate_account
 
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 ################################################################################
@@ -158,7 +158,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-account = generate_account(w3) 
+account = generate_account() 
 
 ##########################################
 
@@ -310,7 +310,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes KryptoJobs2Go candidates to the Streamlit page
-get_people(w3)
+get_people()
 
 ################################################################################
 
