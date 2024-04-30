@@ -31,23 +31,17 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 ---------------------------------------------------------------------------------------------------
 # Instructions 
 
-# 1. From your terminal, navigate to the project folder that contains
-# your `.env` file and the `krypto_jobs.py` and `crypto_wallet.py` files.
-# Be sure to activate your Conda `dev` environment if it is not already active.
+ 1. From your terminal, navigate to the project folder that contains
+ your `.env` file and the `krypto_jobs.py` and `crypto_wallet.py` files.
+ Be sure to activate your Conda `dev` environment if it is not already active.
 
-# 2. To launch the Streamlit application,
-# type `streamlit run krypto_jobs.py`.
+ 2. To launch the Streamlit application,
+ type `streamlit run krypto_jobs.py`.
 
-# 3. On the resulting webpage, select a candidate that you would like to hire
-# from the appropriate drop-down menu. Then, enter the number of hours that you
-# would like to hire them for. (Remember, you do not have a lot of ether in
-# your account, so you cannot hire them for long!)
+ 3. On the resulting webpage, select a candidate that you would like to hire
+ from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for.(Remember, you do not have a lot of ether in your account, so you cannot hire them for long!)
 
-# 4 Click the Send Transaction button to sign and send the transaction with
-# your Ethereum account information. If the transaction is successfully
-# communicated to Ganache, validated, and added to a block,
-# a resulting transaction hash code will be written to the Streamlit
-# application sidebar.
+ 4. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
 
 The first time I tried to send the transaction I got this error but found that the error had to do with my `crypto_wallet.py` on the `line 72` gas price. 
 
@@ -55,15 +49,13 @@ The first time I tried to send the transaction I got this error but found that t
 Once I input the gas price '875000000' my transaction was successful.
 
 
-# 5. Navigate to the Ganache accounts tab and locate your account (index 0).
-# * Take a screenshot of the address, balance, and transaction (TX) count.
-# Save this screenshot to the README.md file of your GitHub repository for
-#  this Challenge assignment.
+ 5. Navigate to the Ganache accounts tab and locate your account (index 0).
+ * Take a screenshot of the address, balance, and transaction (TX) count.
+ Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
 
 
-# 6. Navigate to the Ganache transactions tab and locate the transaction.
-# * Click the transaction and take a screenshot of it.
-# Save this screenshot to the README.md file of your GitHub repository for
-#  this Challenge assignment.
+ 6. Navigate to the Ganache transactions tab and locate the transaction.
+ * Click the transaction and take a screenshot of it.
+ Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
