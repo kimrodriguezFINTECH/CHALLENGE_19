@@ -27,7 +27,6 @@ Specifically, you will assume the perspective of a Fintech Finder customer in or
 * Review the transaction hash code associated with the validated blockchain transaction.
 
 Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
-
 ---------------------------------------------------------------------------------------------------
 # Instructions 
 
@@ -52,8 +51,7 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 ### Once I input the gas price '875000000' my transaction was successful.
 
 <img width="1440" alt="Screenshot 2024-04-29 at 6 54 09 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/0077be7a-37f9-4ec5-ae97-113220c46bcd">
-
-
+-------------------------------------------------------------------------------------------------------
  5. Navigate to the Ganache accounts tab and locate your account (index 0).
  * Take a screenshot of the address, balance, and transaction (TX) count.
  Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
@@ -61,11 +59,20 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
  <img width="1440" alt="Screenshot 2024-04-29 at 7 10 59 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/961003c0-6763-47f0-bf9f-78813fecd661">
 
 <img width="1440" alt="Screenshot 2024-04-29 at 7 11 10 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/1869963c-059d-4438-887e-4e78cc07bf7c">
-
+------------------------------------------------------------------------------------------------------------------
  6. Navigate to the Ganache transactions tab and locate the transaction.
  * Click the transaction and take a screenshot of it.
  Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
 
-
 <img width="1440" alt="Screenshot 2024-04-29 at 7 12 07 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/6bbddd49-9c5f-4cda-be67-3c21c9639f13">
+---------------------------------------------------------------------------------------------------------------
+# References: 
+
+### Tutor Meetings through FINTECH Bootcamp:
+- Gerrardo Espinoza
+- Saturday 4/27/24
+
+### Instructor:
+- Pablo Jordan
+- Monday (Office Hours) 4/29/24
