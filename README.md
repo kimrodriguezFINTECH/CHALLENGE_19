@@ -43,13 +43,13 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 
  4. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
 
-The first time I tried to send the transaction I got this error but found that the error had to do with my `crypto_wallet.py` on the `line 72` gas price. 
+### The first time I tried to send the transaction I got this error but found that the error had to do with my `crypto_wallet.py` on the `line 72` gas price. 
 
 <img width="1440" alt="Screenshot 2024-04-29 at 6 53 35 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/67779a74-87c9-4ab1-b7f0-44ec8aea1783">
 
 <img width="534" alt="Screenshot 2024-04-29 at 7 45 24 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/1a430ccf-0aeb-4e37-8b54-fd34f9ca64d1">
 
-Once I input the gas price '875000000' my transaction was successful.
+### Once I input the gas price '875000000' my transaction was successful.
 
 <img width="1440" alt="Screenshot 2024-04-29 at 6 54 09 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/0077be7a-37f9-4ec5-ae97-113220c46bcd">
 
