@@ -27,3 +27,9 @@ Specifically, you will assume the perspective of a Fintech Finder customer in or
 * Review the transaction hash code associated with the validated blockchain transaction.
 
 Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
+
+---------------------------------------------------------------------------------------------------
+
+The first time I tried to send the transaction I got this error but found that the error had to do with my `crypto_wallet.py` on the `line 72` gas price. 
+
+Once I input the gas price '875000000' my transaction was successful.
