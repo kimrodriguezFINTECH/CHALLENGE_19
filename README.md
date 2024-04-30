@@ -52,6 +52,7 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 
 <img width="1440" alt="Screenshot 2024-04-29 at 6 54 09 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_19/assets/152752672/0077be7a-37f9-4ec5-ae97-113220c46bcd">
 -------------------------------------------------------------------------------------------------------
+ 
  5. Navigate to the Ganache accounts tab and locate your account (index 0).
  * Take a screenshot of the address, balance, and transaction (TX) count.
  Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
